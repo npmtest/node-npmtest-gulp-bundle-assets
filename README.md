@@ -1,4 +1,7 @@
-# test coverage for  [gulp-bundle-assets (v2.28.0)](https://github.com/dowjones/gulp-bundle-assets#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-bundle-assets.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-bundle-assets) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-bundle-assets.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-bundle-assets)
+# npmtest-gulp-bundle-assets
+
+#### basic test-coverage for  [gulp-bundle-assets (v2.28.0)](https://github.com/dowjones/gulp-bundle-assets#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-bundle-assets.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-bundle-assets) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-bundle-assets.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-bundle-assets)
+
 #### Create asset (js, css) bundles from a config file leveraging the power of streams
 
 [![NPM](https://nodei.co/npm/gulp-bundle-assets.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-bundle-assets)
@@ -158,7 +161,8 @@
         "coveralls": "gulp test-cover && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
         "test": "gulp ci"
     },
-    "version": "2.28.0"
+    "version": "2.28.0",
+    "bin": {}
 }
 ```
 
